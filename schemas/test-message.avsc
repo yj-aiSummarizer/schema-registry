@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "TestMessage",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "id", "type": "int" },
+    { "name": "message", "type": "string" },
+    { "name": "values", "type": { "type": "array", "items": "int" } },
+    { "name": "score", "type": "float" }
+  ]
+}
